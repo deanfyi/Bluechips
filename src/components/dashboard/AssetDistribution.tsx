@@ -9,7 +9,7 @@ function AssetTile({
   color,
 }: (typeof assets)[number]) {
   return (
-    <div className="flex flex-1 flex-col gap-2 rounded-lg border border-border-strong bg-elevated px-2.5 py-3">
+    <div className="flex flex-1 flex-col gap-2 rounded-lg border border-border-strong bg-elevated px-2.5 py-3 transition-opacity hover:opacity-60">
       <div
         className="flex items-center border-l pl-2.5"
         style={{ borderColor: color }}
