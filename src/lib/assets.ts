@@ -1,0 +1,26 @@
+export const icons = {
+  cross: "/assets/icons/cross.svg",
+  sidebarCollapse: "/assets/icons/sidebar-collapse.svg",
+  search: "/assets/icons/search.svg",
+  home: "/assets/icons/home.svg",
+  telescope: "/assets/icons/telescope.svg",
+  chart: "/assets/icons/chart.svg",
+  sparkles: "/assets/icons/sparkles.svg",
+  chart4: "/assets/icons/chart-4.svg",
+  coins: "/assets/icons/coins.svg",
+  government: "/assets/icons/government.svg",
+  bluesky: "/assets/icons/bluesky.svg",
+  x: "/assets/icons/x.svg",
+  discord: "/assets/icons/discord.svg",
+  chevronRight: "/assets/icons/chevron-right.svg",
+  grid: "/assets/icons/grid.svg",
+  swap: "/assets/icons/swap.svg",
+  trending: "/assets/icons/trending.svg",
+  scriptAi: "/assets/icons/script-ai.svg",
+  searchMenu: "/assets/icons/search-menu.svg",
+  coinStack: "/assets/icons/coin-stack.svg",
+  projects: "/assets/icons/projects.svg",
+  candles: "/assets/icons/candles.svg",
+} as const;
+
+export const portfolioChart = "/assets/portfolio-chart.png";
